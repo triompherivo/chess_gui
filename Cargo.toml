@@ -1,0 +1,10 @@
+[package]
+name = "chess_gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = { version = "0.12.1", features = ["tokio"] }
+chess = "3.2.0"  # Updated version
+tokio = { version = "1.0", features = ["full"] }  # Add "process" feature
+serde = { version = "1.0", features = ["derive"] }
